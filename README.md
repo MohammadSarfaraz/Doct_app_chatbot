@@ -26,9 +26,9 @@ Here are some example given below--
 
 ![screenshot](https://github.com/MohammadSarfaraz/Doct_app_chatbot/blob/master/medi%20pict/Screenshot%20from%202019-11-13%2014-20-02.png)
 
-![Markdown logo]()
+![Markdown logo](https://github.com/MohammadSarfaraz/Doct_app_chatbot/blob/master/medi%20pict/Screenshot%20from%202019-11-13%2014-20-22.png)
 
-* i used socket connectivity using web socket channel on credential file
+* i used socket connectivity using web socket channel  socketio define in **credential.yml file
 
 # Websocket Channel
 The SocketIO channel uses websockets and is real-time. You need to supply a credentials.yml with the following content:
@@ -46,8 +46,8 @@ The example Webchat implements this session creation mechanism (version >= 0.5.0
 REST Channels
 The RestInput and CallbackInput channels can be used for custom integrations. They provide a URL where you can post messages and either receive response messages directly, or asynchronously via a webhook.
 
-## for more detail 
- [Your own website](https://rasa.com/docs/rasa/user-guide/connectors/your-own-website/)
+## for more detail go to link--
+ * [Your own website](https://rasa.com/docs/rasa/user-guide/connectors/your-own-website/)
 
 
 
