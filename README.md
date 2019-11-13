@@ -47,7 +47,7 @@ REST Channels
 The RestInput and CallbackInput channels can be used for custom integrations. They provide a URL where you can post messages and either receive response messages directly, or asynchronously via a webhook.
 
 ## for more detail 
- (go to this link)[https://rasa.com/docs/rasa/user-guide/connectors/your-own-website/]
+ [Your own website](https://rasa.com/docs/rasa/user-guide/connectors/your-own-website/)
 
 
 
