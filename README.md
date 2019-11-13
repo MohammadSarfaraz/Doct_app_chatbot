@@ -30,7 +30,7 @@ Here are some example given below--
 
 ![Markdown logo](https://github.com/MohammadSarfaraz/Doct_app_chatbot/blob/master/medi%20pict/Screenshot%20from%202019-11-13%2014-40-11.png)
 
-* i used socket connectivity using web socket channel  socketio define in **credential.yml file
+* i used socket connectivity using web socket channel  socketio define in ** credential.yml file
 
 # Websocket Channel
 The SocketIO channel uses websockets and is real-time. You need to supply a credentials.yml with the following content:
