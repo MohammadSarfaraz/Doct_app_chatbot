@@ -24,9 +24,9 @@ Online appointment using [RASA X](https://rasa.com/docs/rasa/user-guide/installa
 
 Here are some example given below--
 
-![screenshot](https://github.com/MohammadSarfaraz)
+![screenshot](https://github.com/MohammadSarfaraz/Doct_app_chatbot/blob/master/medi%20pict/Screenshot%20from%202019-11-13%2014-20-02.png)
 
-![Markdown logo](https://github.com/MohammadSarfaraz)
+![Markdown logo]()
 
 * i used socket connectivity using web socket channel on credential file
 
@@ -46,7 +46,8 @@ The example Webchat implements this session creation mechanism (version >= 0.5.0
 REST Channels
 The RestInput and CallbackInput channels can be used for custom integrations. They provide a URL where you can post messages and either receive response messages directly, or asynchronously via a webhook.
 
-
+## for more detail 
+ (go to this link)[https://rasa.com/docs/rasa/user-guide/connectors/your-own-website/]
 
 
 
