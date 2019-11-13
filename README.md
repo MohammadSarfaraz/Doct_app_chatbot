@@ -33,10 +33,10 @@ Here are some example given below--
 # Websocket Channel
 The SocketIO channel uses websockets and is real-time. You need to supply a credentials.yml with the following content:
 
-###socketio:
-  user_message_evt: user_uttered
-  bot_message_evt: bot_uttered
-  session_persistence: true/false
+### socketio:
+  * user_message_evt: user_uttered
+  * bot_message_evt: bot_uttered
+  * session_persistence: true/false
   
 The first two configuration values define the event names used by Rasa Core when sending or receiving messages over socket.io.
 
