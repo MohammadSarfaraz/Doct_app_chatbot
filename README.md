@@ -24,9 +24,9 @@ Online appointment using [RASA X](https://rasa.com/docs/rasa/user-guide/installa
 
 Here are some example given below--
 
-![screenshot](https://github.com/MohammadSarfaraz/Online_appointment/blob/master/Screenshot%20from%202019-11-12%2015-40-52.png)
+![screenshot](https://github.com/MohammadSarfaraz)
 
-![Markdown logo](https://github.com/MohammadSarfaraz/Online_appointment/blob/master/Screenshot%20from%202019-11-12%2015-52-32.png)
+![Markdown logo](https://github.com/MohammadSarfaraz)
 
 * i used socket connectivity using web socket channel on credential file
 
