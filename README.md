@@ -1,4 +1,4 @@
-# Doct_app_chatbot using Rasa X on Website
+# Taking appointment withn there consultant doctor on Website using Rasa X 
 
 ![rasa](https://d2z6c3c3r6k4bx.cloudfront.net/uploads/event/logo/1077848/2ed953fb073b5e91df6a2e4e10b20578.png)
 
@@ -33,10 +33,11 @@ Here are some example given below--
 # Websocket Channel
 The SocketIO channel uses websockets and is real-time. You need to supply a credentials.yml with the following content:
 
-socketio:
+###socketio:
   user_message_evt: user_uttered
   bot_message_evt: bot_uttered
   session_persistence: true/false
+  
 The first two configuration values define the event names used by Rasa Core when sending or receiving messages over socket.io.
 
 By default, the socketio channel uses the socket id as sender_id, which causes the session to restart at every page reload. session_persistence can be set to true to avoid that. In that case, the frontend is responsible for generating a session id and sending it to the Rasa Core server by emitting the event session_request with {session_id: [session_id]} immediately after the connect event.
