@@ -21,6 +21,21 @@ Online appointment using [RASA X](https://rasa.com/docs/rasa/user-guide/installa
 * I used front end as html and css
 * For backend i used rasa nlu and core
 
+To install Rasa X-:
+pip3 install rasa-x --extra-index-url https://pypi.rasa.com/simple
+* For more detail here is the link [rasa Installation for local mode](https://rasa.com/docs/rasa-x/installation-and-setup/install/local-mode)
+
+Steps to start project after rasa installation for local mode done above-:
+1. Download Doct_app_chatbot-master.zip  and extract to open 
+2. Open medi+rasa 
+3. Open index.html file in browser for frontend chatbot view
+4. Open folder doctor_appoint
+3. Open cmd and writing command below-:
+* rasa run -m models --enable-api --cors '*' --debug
+4. Open index.html page your chatbot now run .
+5. Say hi to your chatbot .
+
+
 
 Here are some example given below--
 
