@@ -30,7 +30,7 @@ Steps to start project after rasa installation for local mode done above-:
 2. Open medi+rasa 
 3. Open index.html file in browser for frontend chatbot view
 4. Open folder doctor_appoint
-3. Open cmd and writing command below-:
+3. Open command prompt  inside  the location folder  **doctor_appoint** and writing command below-:
 * rasa run -m models --enable-api --cors '*' --debug
 4. Open index.html page your chatbot now run .
 5. Say hi to your chatbot .
