@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<script>
+var arr=["d2.jpg","m25.jpg","m19.jpg","m13.jpg","mind2.jpg","footer.jpg"];
+var i=0;
+function slider()
+{
+	var imgslide=document.getElementById("middle");
+	imgslide.style.backgroundImage="url('photo/"+arr[i]+"')";
+	i++;
+	if(i==arr.length)
+	{
+		i=0;
+	}window.setTimeout("slider()",2000);
+}
+</script>
+    <meta charset="UTF-8">
+    <title>Online Appointment with doctor Chat Bot</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.bootcss.com/socket.io/2.2.0/socket.io.js"></script>
+    <script src="webchat.js"></script>
+</head>
+<body onload="slider()">
+<div id="webchat"></div>
+<div id="outer">
+<div id="header">
+<div id="head1">
+<img src="photo/logo.png" alt="picture of logo" width="200px" height="100px"/>
+</div>
+<div id="head2">
+<ul>
+
+</ul>
+</div>
+<div id="head3">
+<img src="photo/google2.jpg" alt="pic" height="60px" width="130px" color="lightblue">
+<input type="text" name="name" placeholder="search for help?"
+style="background-color:lightblue; color:black; width:128px; height:32px; border:1px solid"/> 
+</div>
+
+</div>
+<div id="middle">
+
+
+ 
+</div>
+
+
+<div id="below1">
+<div id="below11">
+<font color="blue" size="5px"><marquee direction="right" behavior="alternate" onmouseover="stop()" onmouseout="start()">
+WELCOME MESSAGE.</marquee></font>
+<img src="photo/m27.jpg" alt="pic" height="267px" width="350px" align="right">
+<img src="photo/home5.png" alt="pic" height="190px" width="220px" align="right">
+<h3 style="color:blue" >HIGHLIGHT:</h3>
+<p > &nbsp &nbsp Do you find yourself confused and lost because of a healthcare<br/>
+                          problem in your family?<br/>
+
+                       It could be either because you have too many options or because you don't<br/> 
+					   have even one.We are here to help.<br/>
+
+</p>
+
+<p>In such cases, we realize that it often takes a team of the right experts<br/>
+                       to solve the
+                        problem.With our unique philosophy of leveraging Collective Wisdom,<br/>
+						we have provided guidance, hope and relief in quite a few rare and complex medical situations.
+
+</p> 
+<input type="button" value="Read more" />
+
+</div>
+<div id="below12">
+<font color="blue" size="5px">NEWS AND EVENTS</font>
+<marquee direction="up" color="violet"><font color="red">june 3 2017</font>
+
+Read More
+Round Table Sponsoring 10 poor children
+
+Read More
+medicounsel Wellness Dubai<br/>
+<br/><font color="red">june 3 2017</font>medicare Wellness Kathmandu Read More
+Copyright © 2017 medicounsel Hospital. <br/>
+
+<br/><font color="red">july 15 2017</font>Read More
+Heartily Welcomes Dr. Prashant Shah<br/>
+<br/><font color="red">july 30 2017</font>All rights reserved.Powered by Concern Sarfaraz Infotech Pvt Ltd.<br/></marquee>
+<input type="button" value="call us +85 3333 3333" style="background-color:blue;color:white; width:250px; height:40px;
+		   border:1px solid blue;"/>
+</div>
+
+</div>
+<div id="below2">
+
+<div class="belowpart">
+<font size="6">Ask A Question</font><br/>
+<font style="color:black; border:blue; align:right; size:8px" size="5px">
+  
+
+Collective Wisdom<br/>
+Long term support<br/>
+Video conferencing<br/>
+Our specialists<br/>
+Success stories<br/>
+</font>
+</div>
+<div class="belowpart">
+<font size="6px">How We Help</font><br/>
+<font style="color:black; border:blue; align:right;  size:8px" size="5px">
+
+Visit our Blog<br/>
+How we remain unbiased<br/>
+Advisory board<br/>
+Fees policy<br/>
+Login to Dashboard<br>
+</font>
+</div>
+<div class="belowpart">
+<font size="6px">Video Library</font><br/>
+<font style="color:black; border:blue; align:right; size:8px" size="5px">
+
+Careers<br/>
+Contact us<br/>
+Privacy policy<br/>
+Terms of use<br/>
+Case updates<br/>
+</font>
+</div>
+<script>
+    WebChat.default.init({
+        selector: "#webchat",
+        initPayload: "/get_started",
+        interval: 1000,
+		socketUrl: "http://localhost:5005",
+		// 1000 ms between each message
+        customData: {
+         
+				 "session_request":{"session_id": ["f22c1dfd7443435ab04b54916c5d0922"]}
+        },
+		// arbitrary custom data. Stay minimal as this will be added to the socket
+        
+		socketPath: "/socket.io/",
+        title: "Chat Bot",
+        subtitle: "Online Appointment with doctor say hi to start",
+	params:{
+	  images: {
+		dims: {
+		    height: 30000000,
+	            width: 1000000000,
+		      }
+		  },
+	  storage: "local"
+	     },		
+        profileAvatar: "a.gif",
+        showCloseButton: true,
+        fullScreenMode: false
+    })
+</script> 
+</div>
+<div id="footer">
+ 
+<img src="photo/linkedin-icon.png" alt="logo" align="right"/>
+<img src="photo/facebook-icon.png" alt="logo" align="right"/>
+<img src="photo/twitter-icon.png" alt="logo"   align="right"/>
+<font size="3px" color="black">Copyright © 2017 Medi Counsel Hospital. All rights reserved.<br/>
+          &nbsp &nbsp &nbsp Design By Mohd Sarfaraz
+                                      </font>
+</div>
+
+</div>
+</body>
+</html>

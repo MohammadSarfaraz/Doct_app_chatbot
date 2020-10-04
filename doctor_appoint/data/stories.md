@@ -1,0 +1,511 @@
+## sad path 1
+* mood_unhappy
+  - utter_cheer_up
+  - utter_did_that_help
+* affirm
+  - utter_happy
+
+## sad path 2
+* mood_unhappy
+  - utter_cheer_up
+  - utter_did_that_help
+* deny
+  - utter_goodbye
+
+## interactive_story_1
+* mood_great
+  - utter_happy
+
+## interactive_story_1
+* greet
+    - utter_greet_HiWelcometo
+    - utter_greet_Requesttosche
+    - utter_apt_option_HowMayI
+
+## interactive_story_1
+* greet
+    - utter_greet_HiWelcometo
+    - utter_greet_Requesttosche
+    - utter_apt_option_HowMayI
+* OnlineAppointment
+    - utter_city_Whichareaarey
+* Delhi
+    - utter_dept_Youarelooking
+* Dermatalogy
+    - utter_dept_Herearethedoc
+    - utter_dept_doct_Pleasesele
+* JustinaPetraityte
+    - utter_time_Whendoyoupref
+* Today
+    - utter_visit_Areyouvisitin
+* FirstVisit
+    - utter_option_Areyoualread
+* Yes
+    - utter_information_Whatisy
+* information{"information": "md sarfaraz"}
+    - utter_information_Yourmobi
+* information
+    - utter_information_Andwhat
+* information
+    - utter_information_Pleasese
+* Male
+    - utter_information_Finally
+* information
+    - utter_goodbye_Youwillsoon
+    - utter_goodbye_Haveagreat
+    - utter_goodbye
+
+## interactive_story_1
+* greet
+    - utter_greet_HiWelcometo
+    - utter_greet_Requesttosche
+    - utter_apt_option_HowMayI
+* OnlineAppointment
+    - utter_city_Whichareaarey
+* Delhi
+    - utter_dept_Youarelooking
+* Dermatalogy
+    - utter_dept_Herearethedoc
+    - utter_dept_doct_Pleasesele
+* JustinaPetraityte
+    - utter_time_Whendoyoupref
+* Today
+    - utter_visit_Areyouvisitin
+* FirstVisit
+    - utter_option_Areyoualread
+* Yes
+    - utter_information_Whatisy
+* information{"information": "abc"}
+    - utter_information_Yourmobi
+* information
+    - utter_information_Andwhat
+* information
+    - utter_information_Pleasese
+* Male
+    - utter_information_Finally
+* information
+    - utter_goodbye_Youwillsoon
+    - utter_goodbye_Haveagreat
+    - utter_goodbye
+
+## interactive_story_1
+* greet
+    - utter_greet_HiWelcometo
+    - utter_greet_Requesttosche
+    - utter_apt_option_HowMayI
+* OnlineAppointment
+    - utter_city_Whichareaarey
+* Lucknow
+    - utter_dept_Youarelooking
+* Orthopedics
+    - utter_dept_Herearethedoc
+    - utter_dept_doct_Pleasesele
+* MohdSarfarazKhan
+    - utter_time_Whendoyoupref
+* Tomorrow
+    - utter_visit_Areyouvisitin
+* FollowupVisit
+    - utter_option_Areyoualread
+* No
+    - utter_information_Whatisy
+* information{"information": "md sarfaraz"}
+    - utter_information_Yourmobi
+* information
+    - utter_information_Andwhat
+* information
+    - utter_information_Pleasese
+* Male
+    - utter_information_Finally
+* information
+    - utter_goodbye_Youwillsoon
+    - utter_goodbye_Haveagreat
+    - utter_goodbye
+
+## interactive_story_1
+* greet
+    - utter_greet_HiWelcometo
+    - utter_greet_Requesttosche
+    - utter_apt_option_HowMayI
+* OnlineAppointment
+    - utter_city_Whichareaarey
+* Kolkata
+    - utter_dept_Youarelooking
+* GeneralSurgery
+    - utter_dept_Herearethedoc
+    - utter_dept_doct_Pleasesele
+* MohdSarfarazKhan
+    - utter_time_Whendoyoupref
+* WithinNext7Days
+    - utter_visit_Areyouvisitin
+* FirstVisit
+    - utter_option_Areyoualread
+* No
+    - utter_information_Whatisy
+* information
+    - utter_information_Yourmobi
+* information{"number": "1234567890"}
+    - utter_information_Andwhat
+* information
+    - utter_information_Pleasese
+* Female
+    - utter_information_Finally
+* information
+    - utter_goodbye_Youwillsoon
+    - utter_goodbye_Haveagreat
+    - utter_goodbye
+
+## Chat with me
+
+* greet
+    - utter_greet_HiWelcometo
+    - utter_greet_Requesttosche
+    - utter_apt_option_HowMayI
+* OnlineAppointment
+    - utter_city_Whichareaarey
+* Delhi
+    - utter_dept_Youarelooking
+* Dermatalogy
+    - utter_dept_Herearethedoc
+    - utter_dept_doct_Pleasesele
+* MohdSarfarazKhan
+    - utter_time_Whendoyoupref
+* Tomorrow
+    - utter_visit_Areyouvisitin
+* FollowupVisit
+    - utter_option_Areyoualread
+* No
+    - utter_information_Whatisy
+* information{"information":"sarfaraz"}
+    - utter_information_Yourmobi
+* information
+    - utter_information_Andwhat
+* information
+    - utter_information_Pleasese
+* Male
+    - utter_information_Finally
+* information
+    - utter_goodbye_Youwillsoon
+    - utter_goodbye_Haveagreat
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Chat with me
+
+* greet
+    - utter_greet_HiWelcometo
+    - utter_greet_Requesttosche
+    - utter_apt_option_HowMayI
+* OnlineAppointment
+    - utter_city_Whichareaarey
+* Agra
+    - utter_dept_Youarelooking
+* Dermatalogy
+    - utter_dept_Herearethedoc
+    - utter_dept_doct_Pleasesele
+* MohdSarfarazKhan
+    - utter_time_Whendoyoupref
+* Tomorrow
+    - utter_visit_Areyouvisitin
+* FollowupVisit
+    - utter_option_Areyoualread
+* Yes
+    - utter_information_Whatisy
+* information
+    - utter_information_Yourmobi
+* information
+    - utter_information_Andwhat
+* information
+    - utter_information_Pleasese
+* Female
+    - utter_information_Finally
+* information
+    - utter_goodbye_Youwillsoon
+    - utter_goodbye_Haveagreat
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## interactive_story_1
+* greet
+    - utter_greet_HiWelcometo
+    - utter_greet_Requesttosche
+    - utter_apt_option_HowMayI
+* FeedBack
+    - utter_feedback_Wedloveto
+    - utter_feedback_option_Youa
+* YesOnTime
+    - utter_feedback_time_Howmuc
+* Ontime
+    - utter_feedback_rate_Rateyo
+* feedback_rate{"rating": "5"}
+    - utter_feedback_info_Canyou
+* information
+    - utter_feedback_info_Wouldy
+* Yes
+    - utter_goodbye_Haveagreat
+    - utter_goodbye
+
+## interactive_story_1
+* greet
+    - utter_greet_HiWelcometo
+    - utter_greet_Requesttosche
+    - utter_apt_option_HowMayI
+* FeedBack
+    - utter_feedback_Wedloveto
+    - utter_feedback_option_Youa
+* Nope
+    - utter_feedback_time_Howmuc
+* Morethan15min
+    - utter_feedback_rate_Rateyo
+* feedback_rate{"rating": "10"}
+    - utter_feedback_info_Canyou
+* feedback_info{"email": "abc@xyzz"}
+    - utter_feedback_info_Wouldy
+* No
+    - utter_goodbye_Haveagreat
+    - utter_goodbye
+
+## interactive_story_1
+* greet
+    - utter_greet_HiWelcometo
+    - utter_greet_Requesttosche
+    - utter_apt_option_HowMayI
+* OnlineAppointment
+    - utter_city_Whichareaarey
+* Delhi
+    - utter_dept_Youarelooking
+* Dermatalogy
+    - utter_dept_Herearethedoc
+    - utter_dept_doct_Pleasesele
+* JustinaPetraityte
+    - utter_time_Whendoyoupref
+* Today
+    - utter_visit_Areyouvisitin
+* FirstVisit
+    - utter_option_Areyoualread
+* Yes
+    - utter_information_Whatisy
+* information{"information": "md sarfaraz"}
+    - utter_information_Yourmobi
+* information
+    - utter_information_Andwhat
+* information
+    - utter_information_Pleasese
+* Male
+    - utter_information_Finally
+* information
+    - utter_goodbye_Youwillsoon
+    - utter_goodbye_Haveagreat
+    - utter_goodbye
+
+## interactive_story_1
+* greet
+    - utter_greet_HiWelcometo
+    - utter_greet_Requesttosche
+    - utter_apt_option_HowMayI
+* OnlineAppointment
+    - utter_city_Whichareaarey
+* Delhi
+    - utter_dept_Youarelooking
+* Dermatalogy
+    - utter_dept_Herearethedoc
+    - utter_dept_doct_Pleasesele
+* JustinaPetraityte
+    - utter_time_Whendoyoupref
+* Today
+    - utter_visit_Areyouvisitin
+* FirstVisit
+    - utter_option_Areyoualread
+* Yes
+    - utter_information_Whatisy
+* information{"information": "abc"}
+    - utter_information_Yourmobi
+* information
+    - utter_information_Andwhat
+* information
+    - utter_information_Pleasese
+* Male
+    - utter_information_Finally
+* information
+    - utter_goodbye_Youwillsoon
+    - utter_goodbye_Haveagreat
+    - utter_goodbye
+
+## interactive_story_1
+* greet
+    - utter_greet_HiWelcometo
+    - utter_greet_Requesttosche
+    - utter_apt_option_HowMayI
+* OnlineAppointment
+    - utter_city_Whichareaarey
+* Lucknow
+    - utter_dept_Youarelooking
+* Orthopedics
+    - utter_dept_Herearethedoc
+    - utter_dept_doct_Pleasesele
+* MohdSarfarazKhan
+    - utter_time_Whendoyoupref
+* Tomorrow
+    - utter_visit_Areyouvisitin
+* FollowupVisit
+    - utter_option_Areyoualread
+* No
+    - utter_information_Whatisy
+* information{"information": "md sarfaraz"}
+    - utter_information_Yourmobi
+* information
+    - utter_information_Andwhat
+* information
+    - utter_information_Pleasese
+* Male
+    - utter_information_Finally
+* information
+    - utter_goodbye_Youwillsoon
+    - utter_goodbye_Haveagreat
+    - utter_goodbye
+
+## interactive_story_1
+* greet
+    - utter_greet_HiWelcometo
+    - utter_greet_Requesttosche
+    - utter_apt_option_HowMayI
+* OnlineAppointment
+    - utter_city_Whichareaarey
+* Kolkata
+    - utter_dept_Youarelooking
+* GeneralSurgery
+    - utter_dept_Herearethedoc
+    - utter_dept_doct_Pleasesele
+* MohdSarfarazKhan
+    - utter_time_Whendoyoupref
+* WithinNext7Days
+    - utter_visit_Areyouvisitin
+* FirstVisit
+    - utter_option_Areyoualread
+* No
+    - utter_information_Whatisy
+* information
+    - utter_information_Yourmobi
+* information{"number": "1234567890"}
+    - utter_information_Andwhat
+* information
+    - utter_information_Pleasese
+* Female
+    - utter_information_Finally
+* information
+    - utter_goodbye_Youwillsoon
+    - utter_goodbye_Haveagreat
+    - utter_goodbye
+
+## Chat with me
+
+* greet
+    - utter_greet_HiWelcometo
+    - utter_greet_Requesttosche
+    - utter_apt_option_HowMayI
+* OnlineAppointment
+    - utter_city_Whichareaarey
+* Delhi
+    - utter_dept_Youarelooking
+* Dermatalogy
+    - utter_dept_Herearethedoc
+    - utter_dept_doct_Pleasesele
+* MohdSarfarazKhan
+    - utter_time_Whendoyoupref
+* Tomorrow
+    - utter_visit_Areyouvisitin
+* FollowupVisit
+    - utter_option_Areyoualread
+* No
+    - utter_information_Whatisy
+* information{"information":"sarfaraz"}
+    - utter_information_Yourmobi
+* information
+    - utter_information_Andwhat
+* information
+    - utter_information_Pleasese
+* Male
+    - utter_information_Finally
+* information
+    - utter_goodbye_Youwillsoon
+    - utter_goodbye_Haveagreat
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Chat with me
+
+* greet
+    - utter_greet_HiWelcometo
+    - utter_greet_Requesttosche
+    - utter_apt_option_HowMayI
+* OnlineAppointment
+    - utter_city_Whichareaarey
+* Agra
+    - utter_dept_Youarelooking
+* Dermatalogy
+    - utter_dept_Herearethedoc
+    - utter_dept_doct_Pleasesele
+* MohdSarfarazKhan
+    - utter_time_Whendoyoupref
+* Tomorrow
+    - utter_visit_Areyouvisitin
+* FollowupVisit
+    - utter_option_Areyoualread
+* Yes
+    - utter_information_Whatisy
+* information
+    - utter_information_Yourmobi
+* information
+    - utter_information_Andwhat
+* information
+    - utter_information_Pleasese
+* Female
+    - utter_information_Finally
+* information
+    - utter_goodbye_Youwillsoon
+    - utter_goodbye_Haveagreat
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## interactive_story_1
+* greet
+    - utter_greet_HiWelcometo
+    - utter_greet_Requesttosche
+    - utter_apt_option_HowMayI
+* FeedBack
+    - utter_feedback_Wedloveto
+    - utter_feedback_option_Youa
+* YesOnTime
+    - utter_feedback_time_Howmuc
+* Ontime
+    - utter_feedback_rate_Rateyo
+* feedback_rate{"rating": "5"}
+    - utter_feedback_info_Canyou
+* information
+    - utter_feedback_info_Wouldy
+* Yes
+    - utter_goodbye_Haveagreat
+    - utter_goodbye
+
+## interactive_story_1
+* greet
+    - utter_greet_HiWelcometo
+    - utter_greet_Requesttosche
+    - utter_apt_option_HowMayI
+* FeedBack
+    - utter_feedback_Wedloveto
+    - utter_feedback_option_Youa
+* Nope
+    - utter_feedback_time_Howmuc
+* Morethan15min
+    - utter_feedback_rate_Rateyo
+* feedback_rate{"rating": "10"}
+    - utter_feedback_info_Canyou
+* feedback_info{"email": "abc@xyzz"}
+    - utter_feedback_info_Wouldy
+* No
+    - utter_goodbye_Haveagreat
+    - utter_goodbye
